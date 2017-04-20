@@ -1,0 +1,39 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  sort.c
+c:\users\mk\documents\visual studio 2017\projects\app\app\sort.c(14): warning C4013: 'assert' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\sort.c(41): warning C4013: '_strdup' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\sort.c(41): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+c:\users\mk\documents\visual studio 2017\projects\app\app\sort.c(42): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+c:\users\mk\documents\visual studio 2017\projects\app\app\sort.c(61): warning C4013: 'dupnode' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\sort.c(61): warning C4047: 'initializing': 'llnode *' differs in levels of indirection from 'int'
+  search.c
+c:\users\mk\documents\visual studio 2017\projects\app\app\search.c(7): warning C4013: 'assert' undefined; assuming extern returning int
+  index.c
+  main.c
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(5): warning C4013: 'llist_create' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(8): warning C4013: 'scanf' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(9): warning C4013: 'printf' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(38): warning C4013: 'llist_insert' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(42): warning C4013: 'llist_print' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(47): warning C4013: 'llist_remove' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(55): warning C4013: 'llist_destroy' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\main.c(5): warning C4047: 'initializing': 'llist *' differs in levels of indirection from 'int'
+  io.c
+  edit.c
+  cmpfn.c
+  basic.c
+c:\users\mk\documents\visual studio 2017\projects\app\app\basic.c(15): warning C4013: 'assert' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\basic.c(40): warning C4013: 'printf' undefined; assuming extern returning int
+c:\users\mk\documents\visual studio 2017\projects\app\app\basic.c(70): warning C4013: 'strcpy' undefined; assuming extern returning int
+  Generating Code...
+basic.obj : error LNK2019: unresolved external symbol _assert referenced in function _destroy
+search.obj : error LNK2001: unresolved external symbol _assert
+sort.obj : error LNK2001: unresolved external symbol _assert
+main.obj : error LNK2019: unresolved external symbol _llist_create referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _scanf referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _llist_insert referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _llist_print referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _llist_remove referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _llist_destroy referenced in function _main
+sort.obj : error LNK2019: unresolved external symbol _dupnode referenced in function _sort
+.\Debug\app.exe : fatal error LNK1120: 8 unresolved externals

@@ -1,0 +1,5 @@
+﻿  index.c
+c:\users\mk\documents\visual studio 2017\projects\app\app\index.c(123): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdlib.h(1334): note: see declaration of 'itoa'
+  app.vcxproj -> C:\Users\mk\Documents\Visual Studio 2017\Projects\app\Debug\app.exe
+  app.vcxproj -> C:\Users\mk\Documents\Visual Studio 2017\Projects\app\Debug\$/(TargetName).pdb (Partial PDB)
